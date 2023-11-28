@@ -5,7 +5,7 @@ const app = express();
 app.get("/", (req: Request, res: Response) => {
   res.send("Bem-vindo ao meu servidor!");
 });
-app.get("/usuario", (req: Request, res: Response) => {
+app.get("/user", (req: Request, res: Response) => {
   const usuario = {
     nome: "Danilo",
     idade: 35,
@@ -14,7 +14,8 @@ app.get("/usuario", (req: Request, res: Response) => {
   res.json(usuario);
 });
 
-const porta = 3100;
+const porta = 3001;
+
 
 
 app.listen(porta, () => {
