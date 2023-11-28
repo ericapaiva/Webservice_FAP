@@ -1,3 +1,4 @@
+/*
 import express, { Request, Response } from "express";
 
 const app = express();
@@ -11,3 +12,4 @@ const porta = 3100;
 app.listen(porta, () => {
   console.log(`Servidor rodando em http://localhost:${porta}`);
 });
+ */
