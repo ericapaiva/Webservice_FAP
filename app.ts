@@ -14,7 +14,7 @@ app.get("/user", (req: Request, res: Response) => {
   res.json(usuario);
 });
 
-const porta = 3001;
+const porta = 3000;
 
 
 
